@@ -11,6 +11,8 @@
   display: flex;
   justify-content: space-between;
   background-color: #1f2937;
+  padding-left: 380px;
+  padding-right: 380px;
 }
 
 .header-logo {
@@ -28,4 +30,48 @@ li {
   margin: 12px;
   color: #e5e7eb;
   font-size: 18px;
+  font-weight: 100;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  height: 60vh;
+  background-color: #1f2937;
+}
+
+.container {
+  margin: 0;
+}
+
+.heading-1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.paragraph {
+  word-wrap: break-word;
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.sign-up {
+  width: 120px;
+  height: 40px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
+  border-radius: 10px;
+  font-size: medium;
+}
+
+img {
+  width: 500px;
+  height: 250px;
 }
