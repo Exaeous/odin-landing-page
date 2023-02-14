@@ -123,3 +123,40 @@ img {
 .name {
   display: flex;
 }
+
+.cta-outer {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 60px 100px;
+  border-radius: 10px;
+}
+
+.sign-up-cta {
+  width: 120px;
+  height: 40px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 10px;
+  font-size: medium;
+  border-color: #f9faf8;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
